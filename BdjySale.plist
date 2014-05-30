@@ -11,7 +11,7 @@
 					<key>kind</key>
 					<string>software-package</string>
 					<key>url</key>
-					<string>http://cnhub.github.io/app/BdjySale.ipa</string>
+					<string>http://10.0.1.3/localApp/BdjySale.ipa</string>
 				</dict>
 			</array>
 			<key>metadata</key>
@@ -23,7 +23,7 @@
 				<key>kind</key>
 				<string>software</string>
 				<key>title</key>
-				<string>app</string>
+				<string>local app</string>
 			</dict>
 		</dict>
 	</array>
