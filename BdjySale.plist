@@ -11,7 +11,7 @@
 					<key>kind</key>
 					<string>software-package</string>
 					<key>url</key>
-					<string>http://10.0.1.5/localApp/BdjySale.ipa</string>
+					<string>https://cnhub.github.io/app/BdjySale.ipa</string>
 				</dict>
 			</array>
 			<key>metadata</key>
