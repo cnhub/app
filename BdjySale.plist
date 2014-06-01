@@ -13,14 +13,6 @@
 					<key>url</key>
 					<string>http://cnhub.github.io/app/BdjySale.ipa</string>
 				</dict>
-				<dict>
-					<key>kind</key>
-					<string>full-size-image</string>
-					<key>needs-shine</key>
-					<false/>
-					<key>url</key>
-					<string>http://cnhub.github.io/app/120@2x.png</string>
-				</dict>
 			</array>
 			<key>metadata</key>
 			<dict>
