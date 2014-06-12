@@ -2,30 +2,108 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>ipa install</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+	<title>应用安装 - 博大酒业销售管理系统</title>
 	<style>
+	*{
+		margin: 0;
+		padding: 0;
+		border: none;
+	}
 		body{
 			margin: 0;
-			padding: 50px;
-			background: black;
+			padding: 5px 15px;
+			background: #f1f1f1;
+			text-align: center;
+			color: #333;
+			font:12px/1.5 "Helvetica Neue", "Open Sans", sans-serif;
+		}
+		img{
+			-webkit-box-shadow: 0px 0px 5px #666;
+			-moz-box-shadow: 0px 0px 5px #666;
+			box-shadow: 0px 0px 5px #666;
+			-webkit-border-radius: 8px;
+			-moz-border-radius: 8px;
+			border-radius: 8px;
+			margin-bottom: 5px;
+		}
+		h1{
+			font-weight: normal;
+			font-size: 14px;
+			color: #333;
+			font-weight: bold;
 			text-align: center;
 		}
 		a{
-			display: inline-block;
-			padding: 20px 30px;
-			font-size: 20px;
-			border: 1px solid #ccc;
+			display: block;
+			-webkit-box-sizing: border-box;
+			-moz-box-sizing: border-box;
+			box-sizing: border-box;
+			width: 100%;
+			padding: 12px 50px;
+			font-size: 16px;
+			border: 1px solid #da4453;
 			-webkit-border-radius: 4px;
 			-moz-border-radius: 4px;
 			border-radius: 4px;
-			background: #eee;
-			color: red;
+			background: #ed5565;
+			font-weight: bold;
+			color: #FFF;
 			text-decoration: none;
+			margin-bottom: 10px;
+			background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#ed5565), to(#da4453));
+			background-image: -webkit-linear-gradient(#ed5565, #da4453);
+			background-image: -moz-linear-gradient(#ed5565, #da4453);
+			background-image: -o-linear-gradient(#ed5565, #da4453);
+			background-image: linear-gradient(#ed5565, #da4453);
+			outline: none;
+		}
+		a:active{
+			background:#e83d3d;
+		}
+
+		p{
+			font-size: 12px;
+			color: #999;
+			text-align: center;
+		}
+		ul{
+			list-style: none;
+			text-align: left;
+			margin: 0 auto;
+		}
+		li{
+			font-size: 12px;
+			color: #666;
+		}
+		section{
+			overflow: hidden;
+			padding: 10px 0;
+		}
+		section div{
+			float: left;
+			width: 120px;
+			padding:6px 15px 0 0;
+		}
+		section ul{
 		}
 	</style>
 </head>
 <body>
-	<a href="itms-services://?action=download-manifest&url=https://cnhub.github.io/app/BdjySale.plist">install app</a>
+	<section>
+		<div>
+			<img src="120@2x.png" alt="博大酒业销售管理系统" width="60" height="60px"><h1>博大酒业销售管理系统</h1>
+		</div>
+		<ul>
+			<li>类别: 商务</li>
+			<li>更新: 2014年06月03日</li>
+			<li>版本: 1.0.3</li>
+			<li>大小: 1.5 MB</li>
+			<li>语言: 简体中文, 英文</li>
+			<li>开发商: &copy; 2014 BODA JIUYE  Inc.</li>
+		</ul>
+	</section>
+	<a href="itms-services://?action=download-manifest&url=https://cnhub.github.io/app/BdjySale.plist" title="立即安装">立即安装</a>
+	<p>需要 iOS 7.0 或更高版本。与 iPhone、iPad、iPod touch 兼容。 此 App 已针对 iPhone 5 进行优化。增加了对64位的支持。</p>
 </body>
 </html>
